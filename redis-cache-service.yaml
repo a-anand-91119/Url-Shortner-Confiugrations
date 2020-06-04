@@ -1,0 +1,9 @@
+redis:
+  atomiclong:
+    counter: redis:atomiclong:counter:key
+
+logging:
+  level:
+    in:
+      notyouraveragedev: TRACE
+  file: logs/Redis-Cache-Service/RedisCacheServiceLog.log
