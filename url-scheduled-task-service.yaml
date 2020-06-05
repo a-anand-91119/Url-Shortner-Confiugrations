@@ -1,0 +1,3 @@
+schedule:
+  expiry:
+    cron: "0 0 6 * * ?"
