@@ -1,0 +1,26 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    url:'jdbc:mysql://172.31.16.100:3306/url_short_db?serverTimezone=Asia/Kolkata'
+    username:'{cipher}dd73d909630105b905bef06b4c619aeef5f90664de77830357e7cb92d5763abc'
+    password:'{cipher}56405b7b66c9e8104b552e63cbf0d0177274a5529e0558b9de2d7e0029227f1c'
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+    in:
+      notyouraveragedev: TRACE
+  file: logs/URL-Resolver-Service/URLResolverServiceLog.log
