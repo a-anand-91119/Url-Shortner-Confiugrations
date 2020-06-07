@@ -7,6 +7,10 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    url: 'jdbc:mysql://192.168.0.149:3306/url_short_db?serverTimezone=Asia/Kolkata'
+    username: 'shortuser'
+    password: '{cipher}0ba6c45a7eadf3dcc640582fbb6030ba3b46fcc357c2fdc8d509baff0055ca03'
 
 logging:
   level:
