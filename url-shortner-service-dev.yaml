@@ -7,7 +7,7 @@ spring:
   datasource:
     url:'jdbc:mysql://192.168.0.149:3306/url_short_db?serverTimezone=Asia/Kolkata'
     username:'{cipher}abaaede1ad877478709dc61cdd22efaa997136ee22ed81715d17b1f617a9e61e'
-    password:'{cipher}e427e6f401b11b387300a7adb34991018056bb58a4aab757f79862fa3254c855'
+    password:'{cipher}abaaede1ad877478709dc61cdd22efaa997136ee22ed81715d17b1f617a9e61e'
 
 logging:
   level:
