@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true
+  datasource:
+    url: '{cipher}228354ab4e24832402cb1a8e01f6569a224cd4242b7642dc021a4b57eb2cbaa027f741d7c07049722ed46f693062e29edb7e12bf0ad789e63a6692193185fcb67e6c7fb1129f76e97a3658ea1fb1323ccf92f969018679cf055f80821303ccab'
+    password: '{cipher}c5246776e0075ca69a2459cfd058f55a6dd3c3c8c4eb36a13c7fc2b3ed692cea'
+    username: '{cipher}3a45fbb0818ad139f5f6fcfcfeaa68635684010b2674889a65a516494d7b2b8c'
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+    in:
+      notyouraveragedev: TRACE
+  file: logs/User-Management-Service/UserManagementServiceLog.log

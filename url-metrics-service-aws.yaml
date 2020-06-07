@@ -1,0 +1,27 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true
+  datasource:
+    url: '{cipher}9d6d103fe13852a5a795386993dcee3d075857211872d4f750513eca0fd641ab9bbe67e8065e496fdfcbd581c02d3c6d18504f5d4b9ba2c9490fe6b4a407387398e36e4e62b738336293b327da841eb1416ae4a8271d23e26dd47d20b162b01e'
+    password: '{cipher}c5246776e0075ca69a2459cfd058f55a6dd3c3c8c4eb36a13c7fc2b3ed692cea'
+    username: '{cipher}3a45fbb0818ad139f5f6fcfcfeaa68635684010b2674889a65a516494d7b2b8c'
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+    in:
+      notyouraveragedev: TRACE
+  file: logs/URL-Metrics-Service/URLMetricsServiceLog.log
+ip:
+  geolocation:
+    api:
+      key: '{cipher}7b0f8d5f0a2a01512e4c8d046677f087992f0bd2ffcf6f7344a614414e6d6031a0980655ededca3d16c87bdbfbdd674ee7c3902b9a8f66722fb15e8836eefd2c'
