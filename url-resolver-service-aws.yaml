@@ -12,6 +12,7 @@ spring:
     password: '{cipher}c5246776e0075ca69a2459cfd058f55a6dd3c3c8c4eb36a13c7fc2b3ed692cea'
     username: '{cipher}3a45fbb0818ad139f5f6fcfcfeaa68635684010b2674889a65a516494d7b2b8c'
 
+
 logging:
   level:
     org:
