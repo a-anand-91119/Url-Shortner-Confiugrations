@@ -1,0 +1,23 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true
+  datasource:
+    url:'jdbc:mysql://192.168.0.149:3306/url_short_db?serverTimezone=Asia/Kolkata'
+    username:'{cipher}abaaede1ad877478709dc61cdd22efaa997136ee22ed81715d17b1f617a9e61e'
+    password:'{cipher}e427e6f401b11b387300a7adb34991018056bb58a4aab757f79862fa3254c855'
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+    in:
+      notyouraveragedev: TRACE
+  file: logs/URL-Shortner-Service/URLShortnerServiceLog.log
