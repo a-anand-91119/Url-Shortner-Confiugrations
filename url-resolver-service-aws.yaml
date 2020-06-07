@@ -8,7 +8,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
   datasource:
-    url:'jdbc:mysql://172.31.18.118:3306/url_short_db?serverTimezone=Asia/Kolkata'
+    url:'jdbc:mysql://172.31.16.100:3306/url_short_db?serverTimezone=Asia/Kolkata'
     username:'{cipher}ba4d898ae162ba997e9406e59d5d32c360b0f52029868c07267c86fef44735ed'
     password:'{cipher}56405b7b66c9e8104b552e63cbf0d0177274a5529e0558b9de2d7e0029227f1c'
 
