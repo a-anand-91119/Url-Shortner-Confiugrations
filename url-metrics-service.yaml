@@ -17,10 +17,3 @@ logging:
     in:
       notyouraveragedev: TRACE
   file: logs/URL-Metrics-Service/URLMetricsServiceLog.log
-ip:
-  geolocation:
-    api:
-      key: '{cipher}7b0f8d5f0a2a01512e4c8d046677f087992f0bd2ffcf6f7344a614414e6d6031a0980655ededca3d16c87bdbfbdd674ee7c3902b9a8f66722fb15e8836eefd2c'
-userstack:
-  api:
-    key: '{cipher}c584b3f9f14a8b22b41f3adb9b680939d189b48bda618b47274b1a1bca8edfd3b57a5fba6f4e478b00e591765230dc629e9eedac12ada961b923ea7704045963'
